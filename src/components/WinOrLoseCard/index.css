@@ -1,1 +1,83 @@
 /* Write your code here. */
+.wonLosImg {
+  order: 1;
+  width: 50%;
+}
+.textContainer {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.winlosCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9796f0;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+}
+.headingwon {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.parawon {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+@media screen and (min-width: 769px) {
+  .wonLosImg {
+    order: 2;
+    width: 100%;
+  }
+  .textContainer {
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .winlosCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #9796f0;
+    padding: 30px;
+    border-radius: 30px;
+    width: 40%;
+    border: 1px solid #fbc7d4;
+  }
+  .headingwon {
+    font-family: 'Roboto';
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  .parawon {
+    font-family: 'Roboto';
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}
+.scoreStyle {
+  color: #6a59ff;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 40px;
+}
+.playButton {
+  background-color: yellow;
+  width: 80px;
+  padding: 5px;
+  border-width: 0px;
+  border-radius: 5px;
+}

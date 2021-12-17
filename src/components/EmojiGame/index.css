@@ -1,1 +1,18 @@
 /* Write your code here. */
+
+.ulBgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #6a59ff;
+  background-size: cover;
+  height: 100vh;
+}
+
+.ulBg {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}

@@ -1,5 +1,4 @@
 import EmojiGame from './components/EmojiGame'
-
 import './App.css'
 
 const emojisList = [

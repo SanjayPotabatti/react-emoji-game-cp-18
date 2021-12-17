@@ -1,1 +1,48 @@
 /* Write your code here. */
+.navBg {
+  background-color: #9796f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.navHeading {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px;
+}
+.navSmallContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.logoImg {
+  width: 30%;
+}
+@media screen and (min-width: 769px) {
+  .ulBg {
+    background-color: transparent;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .navHeading {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+  }
+  .navSmallContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+  }
+  .logoImg {
+    width: 50%;
+  }
+}
